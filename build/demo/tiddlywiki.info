@@ -1,0 +1,13 @@
+{
+	"plugins": [
+		"bj/droptron"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+		"doNotSave": [
+	],
+	"includeWikis": [
+	]
+}

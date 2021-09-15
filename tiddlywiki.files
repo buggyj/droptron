@@ -1,0 +1,12 @@
+{
+	"tiddlers": [{
+		"file": "license",
+		"fields": {
+			"type": "text/plain",
+			"title": "$:/plugins/bj/electron/droptron/licence"
+		}
+	}],
+	 "directories": [
+		"source"
+	 ]
+}

@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/bj/electron/droptron",
+	"description": "electron drop file - returns path",
+	"author": "JeffreyWilkinson aka BJ",
+	"version": "2.0.0",
+	"list": "readme license",
+	"core-version": ">=5.2.0",
+	"source": "https://github.com/buggyj",
+	"plugin-type": "plugin"
+}
