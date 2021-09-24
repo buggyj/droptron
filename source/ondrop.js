@@ -89,12 +89,10 @@ OnDrop.prototype.handleDropEvent  = function(event) {
 	//cancel normal action
 	self.cancelAction(event);
 	for (let f of event.dataTransfer.files) {
-        if(f.type=="text/html"){
 			console.log('The file(s) you dragged: ', f);
 			this.filepath = f.path;
 			//window.electron.send('ondragstart', f.path)
 			this.invokeAction();
-        } else alert("not a wiki file");	
 	 }
 	 self.dispatchEvent({type: "tm-dropHandled", param: null});
 	 //else let the event fall thru
